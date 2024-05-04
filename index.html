@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Todo App List</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h2>TODO APP LIST</h2>
+            <div>
+                <input type="text" placeholder="Write Here..!" id="inp">
+                <button class="add" onclick="getInp()">ADD </button>
+                <button class="del" onclick="deletell()">Delete All</button>
+            </div>
+            <div id="list_item" class="list-item">
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
